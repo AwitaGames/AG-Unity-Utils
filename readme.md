@@ -1,5 +1,7 @@
 Welcome to my collection of scripts to use in Unity!
 
+This are utils that I use in almost every project, and has a very general use case. If it's here, it's useful and will save you some time when programming your game!
+
 ## Yield Instructions
 ### [DoEveryFrameFor.cs](/Scripts/DoEveryFrameFor.cs)
 
