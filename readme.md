@@ -1,7 +1,7 @@
 Welcome to my collection of scripts to use in Unity!
 
 ## Yield Instructions
-### Do Every Frame For
+### [DoEveryFrameFor.cs](/Scripts/DoEveryFrameFor.cs)
 
 This script allows you to run a loop function inside an IEnumerator, to make things like a fade in.
 
@@ -36,5 +36,3 @@ public IEnumerator ManualFadeIn(){
 
 }
 ```
-
-[DoEveryFrameFor.cs](/Scripts/DoEveryFrameFor.cs)
