@@ -3,7 +3,7 @@ Welcome to my collection of scripts to use in Unity!
 This are utils that I use in almost every project, and has a very general use case. If it's here, it's useful and will save you some time when programming your game!
 
 ## Yield Instructions
-### [DoEveryFrameFor.cs](/Scripts/DoEveryFrameFor.cs)
+### [DoEveryFrameFor.cs](/Scripts/CustomYieldInstructions/DoEveryFrameFor.cs)
 
 This script allows you to run a loop function inside an IEnumerator, to make things like a fade in.
 
@@ -38,3 +38,9 @@ public IEnumerator ManualFadeIn(){
 
 }
 ```
+
+### [AGMathExtensions.cs](/Scripts/Extensions/AGMathExtensions.cs)
+Extensions for Math classes like float.
+
+### [AGMathExtensions.cs](/Scripts/Extensions/AGObjectExtensions.cs)
+Extensions for Monobehaviours, Transforms and GameObjects classes. 
