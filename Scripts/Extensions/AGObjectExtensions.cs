@@ -11,7 +11,7 @@ public static class AGObjectExtensions{
     /// <param name="delay">The delay in seconds</param>
     /// <param name="useUnscaledTime">Should we use unscaled time?</param>
     public static Coroutine InvokeEvent(this MonoBehaviour obj, float delay, System.Action action, bool useUnscaledTime = false) {
-        return obj.StartCoroutine(_InvokeEvent(action, delay));
+        return obj.StartCoroutine(_InvokeEvent(action, delay, useUnscaledTime));
     }
 
     private static IEnumerator _InvokeEvent(System.Action action, float delay, bool useUnscaledTime = false) {
